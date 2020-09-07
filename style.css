@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+
+* {
+  font-family: 'Hind';
+  background: #424242;
+  color: white;
+  outline: none;
+}
+
+input {
+  border: 2px solid #616161;
+  background: #212121;
+  border-radius: 4px;
+  font-family: 'Hind';
+  line-height: 18px;
+  padding: 8px;
+}
+
+input:focus {
+  border-color: #4A90E2;
+}
+
+#p {
+  text-align: center;
+  transition: transform .1s;
+  font-size: 24px;
+}
+
+.faded { 
+  transform: scale(.3);
+}
